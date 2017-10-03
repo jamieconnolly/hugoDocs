@@ -161,6 +161,8 @@ title:                      ""
 // Valid values are "AP" (default), "Chicago" and "Go" (which was what you had in Hugo <= 0.25.1).
 // See https://www.apstylebook.com/ and http://www.chicagomanualofstyle.org/home.html
 titleCaseStyle:             "AP"
+# if true, use /filename instead of /filename/
+trimTrailingSlash:          false
 # if true, use /filename.html instead of /filename/
 uglyURLs:                   false
 # verbose output
@@ -298,6 +300,8 @@ stepAnalysis =                false
 themesDir =                   "themes"
 theme =                       ""
 title =                       ""
+# if true, use /filename instead of /filename/
+trimTrailingSlash =           false
 # if true, use /filename.html instead of /filename/
 uglyURLs =                    false
 # verbose output
